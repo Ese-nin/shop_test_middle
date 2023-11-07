@@ -1,0 +1,14 @@
+.size {
+    cursor: default;
+    opacity: .5;
+}
+
+.activeSize {
+    font-weight: bold;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.selectedSize {
+    color: #FF3D00;
+}

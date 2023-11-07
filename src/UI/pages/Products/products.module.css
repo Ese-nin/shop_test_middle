@@ -1,0 +1,47 @@
+.list {
+    display: flex;
+}
+
+.preview {
+    margin: 25px;
+}
+
+.previewIMG {
+    width: 200px;
+    cursor: pointer;
+}
+
+.previewIMG:hover {
+    width: 205px;
+}
+
+.name {
+    cursor: pointer;
+}
+
+.product {
+    margin: 70px;
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.productIMG {
+    width: 400px;
+    cursor: pointer;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.colorsBlock {
+    display: flex;
+}
+
+.sizesBlock {
+    display: flex;
+    gap: 5px;
+}
