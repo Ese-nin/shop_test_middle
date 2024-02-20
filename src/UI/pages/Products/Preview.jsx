@@ -9,9 +9,9 @@ export const Preview = ({product}) => {
 
     const navigate = useNavigate()
 
-    const name = "Футболка"
+    const id = 1
 
-    const photo = product.name === name ? shirtPreview1 : shirtPreview2
+    const photo = product.id === id ? shirtPreview1 : shirtPreview2
     const minPrice = Math.min(...product.colors.map(c => c.price))
 
     const toProduct = () => {
